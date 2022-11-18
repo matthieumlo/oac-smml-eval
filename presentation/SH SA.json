@@ -1,0 +1,17 @@
+{
+  "subjectArea" : {
+    "name" : "SH SA",
+    "sourceBusinessModel" : "businessModel:SH_BMML",
+    "tableOrder" : [ {
+      "name" : "presentationTable:SH SA.CHANNELS"
+    }, {
+      "name" : "presentationTable:SH SA.PRODUCTS"
+    }, {
+      "name" : "presentationTable:SH SA.PROMOTIONS"
+    }, {
+      "name" : "presentationTable:SH SA.TIMES"
+    }, {
+      "name" : "presentationTable:SH SA.COSTS"
+    } ]
+  }
+}

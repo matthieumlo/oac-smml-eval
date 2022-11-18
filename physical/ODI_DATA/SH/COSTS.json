@@ -1,0 +1,74 @@
+{
+  "physicalTable" : {
+    "name" : "COSTS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROD_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TIME_ID",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROMO_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "UNIT_COST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "UNIT_PRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:ODI_DATA.SH.CHANNELS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:ODI_DATA.SH.COSTS.CHANNEL_ID",
+        "rightColumn" : "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:ODI_DATA.SH.PRODUCTS",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.COSTS.PROD_ID", "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_ID" ]
+      },
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:ODI_DATA.SH.PROMOTIONS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:ODI_DATA.SH.COSTS.PROMO_ID",
+        "rightColumn" : "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:ODI_DATA.SH.TIMES",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:ODI_DATA.SH.COSTS.TIME_ID",
+        "rightColumn" : "physicalColumn:ODI_DATA.SH.TIMES.TIME_ID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

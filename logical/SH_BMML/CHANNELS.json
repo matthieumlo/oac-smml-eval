@@ -1,0 +1,102 @@
+{
+  "logicalTable" : {
+    "name" : "CHANNELS",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "CHANNEL_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_CLASS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_CLASS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_CLASS_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_CLASS_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_TOTAL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_TOTAL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "CHANNELS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.CHANNELS.CHANNEL_TOTAL_ID" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "CHANNELS",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:ODI_DATA.SH.CHANNELS" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "CHANNEL_ID" ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "physicalTable" : {
+    "name" : "CHANNELS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CHANNEL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_CLASS",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_CLASS_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_TOTAL",
+      "dataType" : "VARCHAR",
+      "length" : 13,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ]
+  }
+}

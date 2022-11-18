@@ -1,0 +1,325 @@
+{
+  "logicalTable" : {
+    "name" : "PRODUCTS",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "PROD_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_SUBCATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_SUBCATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_SUBCATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_SUBCATEGORY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_SUBCATEGORY_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_SUBCATEGORY_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_CATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_CATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_CATEGORY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_CATEGORY_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_CATEGORY_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_WEIGHT_CLASS",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_WEIGHT_CLASS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_UNIT_OF_MEASURE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_UNIT_OF_MEASURE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_PACK_SIZE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_PACK_SIZE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SUPPLIER_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.SUPPLIER_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_STATUS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_STATUS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_LIST_PRICE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_LIST_PRICE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_MIN_PRICE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_MIN_PRICE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_TOTAL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_TOTAL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_TOTAL_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_SRC_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_SRC_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_EFF_FROM",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_EFF_FROM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_EFF_TO",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_EFF_TO" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROD_VALID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PRODUCTS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PRODUCTS.PROD_VALID" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "PRODUCTS",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:ODI_DATA.SH.PRODUCTS" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}

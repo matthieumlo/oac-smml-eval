@@ -1,0 +1,28 @@
+{
+  "database" : {
+    "name" : "ODI_DATA",
+    "databaseType" : "ORACLE_ADW",
+    "connectionPools" : [ {
+      "name" : "ODI_DATA",
+      "connection" : "'system'.'FAW_ADW_ODI_DATA'",
+      "remoteConnection" : false,
+      "maxConnections" : 10,
+      "requiresFullyQualifedTableNames" : true,
+      "connectionTimeout" : 5,
+      "connectionTimeoutUnit" : "MINUTES",
+      "multithreaded" : true,
+      "supportParams" : true,
+      "isolationLevel" : "default",
+      "writeBackConfig" : {
+        "dbSupportsUnicode" : false,
+        "bulkInsertBufferSize" : 10240,
+        "transactionBoundary" : 1000,
+        "tempTablePrefix" : "TT"
+      }
+    } ],
+    "virtualPrivateDatabase" : false,
+    "crmMetadataTables" : false,
+    "allowDirectDatabaseRequests" : false,
+    "allowPopulateQueries" : false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "physicalTable" : {
+    "name" : "SUPPLEMENTARY_DEMOGRAPHICS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CUST_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "EDUCATION",
+      "dataType" : "VARCHAR",
+      "length" : 21,
+      "nullable" : false
+    }, {
+      "name" : "OCCUPATION",
+      "dataType" : "VARCHAR",
+      "length" : 21,
+      "nullable" : false
+    }, {
+      "name" : "HOUSEHOLD_SIZE",
+      "dataType" : "VARCHAR",
+      "length" : 21,
+      "nullable" : false
+    }, {
+      "name" : "YRS_RESIDENCE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "AFFINITY_CARD",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "BULK_PACK_DISKETTES",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FLAT_PANEL_MONITOR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "HOME_THEATER_PACKAGE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "BOOKKEEPING_APPLICATION",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PRINTER_SUPPLIES",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "Y_BOX_GAMES",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "OS_DOC_SET_KANJI",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COMMENTS",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    } ]
+  }
+}

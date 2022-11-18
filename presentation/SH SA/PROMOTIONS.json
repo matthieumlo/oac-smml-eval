@@ -1,0 +1,39 @@
+{
+  "presentationTable" : {
+    "name" : "PROMOTIONS",
+    "presentationColumns" : [ {
+      "name" : "PROMO_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_ID"
+    }, {
+      "name" : "PROMO_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_NAME"
+    }, {
+      "name" : "PROMO_SUBCATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_SUBCATEGORY"
+    }, {
+      "name" : "PROMO_SUBCATEGORY_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_SUBCATEGORY_ID"
+    }, {
+      "name" : "PROMO_CATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_CATEGORY"
+    }, {
+      "name" : "PROMO_CATEGORY_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_CATEGORY_ID"
+    }, {
+      "name" : "PROMO_COST",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_COST"
+    }, {
+      "name" : "PROMO_BEGIN_DATE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_BEGIN_DATE"
+    }, {
+      "name" : "PROMO_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_END_DATE"
+    }, {
+      "name" : "PROMO_TOTAL",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_TOTAL"
+    }, {
+      "name" : "PROMO_TOTAL_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PROMOTIONS.PROMO_TOTAL_ID"
+    } ]
+  }
+}

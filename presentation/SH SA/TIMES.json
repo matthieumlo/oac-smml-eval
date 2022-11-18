@@ -1,0 +1,120 @@
+{
+  "presentationTable" : {
+    "name" : "TIMES",
+    "presentationColumns" : [ {
+      "name" : "TIME_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.TIME_ID"
+    }, {
+      "name" : "DAY_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAY_NAME"
+    }, {
+      "name" : "DAY_NUMBER_IN_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAY_NUMBER_IN_WEEK"
+    }, {
+      "name" : "DAY_NUMBER_IN_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAY_NUMBER_IN_MONTH"
+    }, {
+      "name" : "CALENDAR_WEEK_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_WEEK_NUMBER"
+    }, {
+      "name" : "FISCAL_WEEK_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_WEEK_NUMBER"
+    }, {
+      "name" : "WEEK_ENDING_DAY",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.WEEK_ENDING_DAY"
+    }, {
+      "name" : "WEEK_ENDING_DAY_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.WEEK_ENDING_DAY_ID"
+    }, {
+      "name" : "CALENDAR_MONTH_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_MONTH_NUMBER"
+    }, {
+      "name" : "FISCAL_MONTH_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_MONTH_NUMBER"
+    }, {
+      "name" : "CALENDAR_MONTH_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_MONTH_DESC"
+    }, {
+      "name" : "CALENDAR_MONTH_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_MONTH_ID"
+    }, {
+      "name" : "FISCAL_MONTH_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_MONTH_DESC"
+    }, {
+      "name" : "FISCAL_MONTH_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_MONTH_ID"
+    }, {
+      "name" : "DAYS_IN_CAL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_CAL_MONTH"
+    }, {
+      "name" : "DAYS_IN_FIS_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_FIS_MONTH"
+    }, {
+      "name" : "END_OF_CAL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_CAL_MONTH"
+    }, {
+      "name" : "END_OF_FIS_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_FIS_MONTH"
+    }, {
+      "name" : "CALENDAR_MONTH_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_MONTH_NAME"
+    }, {
+      "name" : "FISCAL_MONTH_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_MONTH_NAME"
+    }, {
+      "name" : "CALENDAR_QUARTER_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_QUARTER_DESC"
+    }, {
+      "name" : "CALENDAR_QUARTER_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_QUARTER_ID"
+    }, {
+      "name" : "FISCAL_QUARTER_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_QUARTER_DESC"
+    }, {
+      "name" : "FISCAL_QUARTER_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_QUARTER_ID"
+    }, {
+      "name" : "DAYS_IN_CAL_QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_CAL_QUARTER"
+    }, {
+      "name" : "DAYS_IN_FIS_QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_FIS_QUARTER"
+    }, {
+      "name" : "END_OF_CAL_QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_CAL_QUARTER"
+    }, {
+      "name" : "END_OF_FIS_QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_FIS_QUARTER"
+    }, {
+      "name" : "CALENDAR_QUARTER_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_QUARTER_NUMBER"
+    }, {
+      "name" : "FISCAL_QUARTER_NUMBER",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_QUARTER_NUMBER"
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_YEAR"
+    }, {
+      "name" : "CALENDAR_YEAR_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.CALENDAR_YEAR_ID"
+    }, {
+      "name" : "FISCAL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_YEAR"
+    }, {
+      "name" : "FISCAL_YEAR_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.FISCAL_YEAR_ID"
+    }, {
+      "name" : "DAYS_IN_CAL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_CAL_YEAR"
+    }, {
+      "name" : "DAYS_IN_FIS_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.DAYS_IN_FIS_YEAR"
+    }, {
+      "name" : "END_OF_CAL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_CAL_YEAR"
+    }, {
+      "name" : "END_OF_FIS_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.TIMES.END_OF_FIS_YEAR"
+    } ]
+  }
+}

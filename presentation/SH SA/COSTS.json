@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "COSTS",
+    "presentationColumns" : [ {
+      "name" : "PROD_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.PROD_ID"
+    }, {
+      "name" : "TIME_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.TIME_ID"
+    }, {
+      "name" : "PROMO_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.PROMO_ID"
+    }, {
+      "name" : "CHANNEL_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.CHANNEL_ID"
+    }, {
+      "name" : "UNIT_COST",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.UNIT_COST"
+    }, {
+      "name" : "UNIT_PRICE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.COSTS.UNIT_PRICE"
+    } ]
+  }
+}

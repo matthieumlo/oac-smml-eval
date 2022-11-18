@@ -1,0 +1,197 @@
+{
+  "physicalTable" : {
+    "name" : "TIMES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "TIME_ID",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 9,
+      "nullable" : false
+    }, {
+      "name" : "DAY_NUMBER_IN_WEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAY_NUMBER_IN_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_WEEK_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_WEEK_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WEEK_ENDING_DAY",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "WEEK_ENDING_DAY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_MONTH_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_MONTH_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_MONTH_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 8,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_MONTH_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_MONTH_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 8,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_MONTH_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_CAL_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_FIS_MONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_CAL_MONTH",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_FIS_MONTH",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_MONTH_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 9,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_MONTH_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 9,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_QUARTER_DESC",
+      "dataType" : "CHAR",
+      "length" : 7,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_QUARTER_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_QUARTER_DESC",
+      "dataType" : "CHAR",
+      "length" : 7,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_QUARTER_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_CAL_QUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_FIS_QUARTER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_CAL_QUARTER",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_FIS_QUARTER",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_QUARTER_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_QUARTER_NUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CALENDAR_YEAR_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "FISCAL_YEAR_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_CAL_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "DAYS_IN_FIS_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_CAL_YEAR",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "END_OF_FIS_YEAR",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    } ]
+  }
+}

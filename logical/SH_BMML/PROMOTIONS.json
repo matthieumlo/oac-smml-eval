@@ -1,0 +1,172 @@
+{
+  "logicalTable" : {
+    "name" : "PROMOTIONS",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "PROMO_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_SUBCATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_SUBCATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_SUBCATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_SUBCATEGORY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_CATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_CATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_CATEGORY_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_COST",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_COST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_BEGIN_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_BEGIN_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_END_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_END_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_TOTAL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_TOTAL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMO_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "PROMOTIONS",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:ODI_DATA.SH.PROMOTIONS.PROMO_TOTAL_ID" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "PROMOTIONS",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:ODI_DATA.SH.PROMOTIONS" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "primaryKey" : [ "PROMO_ID" ]
+  }
+}

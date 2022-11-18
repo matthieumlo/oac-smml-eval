@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "CHANNELS",
+    "presentationColumns" : [ {
+      "name" : "CHANNEL_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_ID"
+    }, {
+      "name" : "CHANNEL_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_DESC"
+    }, {
+      "name" : "CHANNEL_CLASS",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_CLASS"
+    }, {
+      "name" : "CHANNEL_CLASS_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_CLASS_ID"
+    }, {
+      "name" : "CHANNEL_TOTAL",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_TOTAL"
+    }, {
+      "name" : "CHANNEL_TOTAL_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.CHANNELS.CHANNEL_TOTAL_ID"
+    } ]
+  }
+}

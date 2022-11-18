@@ -1,0 +1,72 @@
+{
+  "presentationTable" : {
+    "name" : "PRODUCTS",
+    "presentationColumns" : [ {
+      "name" : "PROD_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_ID"
+    }, {
+      "name" : "PROD_NAME",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_NAME"
+    }, {
+      "name" : "PROD_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_DESC"
+    }, {
+      "name" : "PROD_SUBCATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_SUBCATEGORY"
+    }, {
+      "name" : "PROD_SUBCATEGORY_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_SUBCATEGORY_ID"
+    }, {
+      "name" : "PROD_SUBCATEGORY_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_SUBCATEGORY_DESC"
+    }, {
+      "name" : "PROD_CATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_CATEGORY"
+    }, {
+      "name" : "PROD_CATEGORY_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_CATEGORY_ID"
+    }, {
+      "name" : "PROD_CATEGORY_DESC",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_CATEGORY_DESC"
+    }, {
+      "name" : "PROD_WEIGHT_CLASS",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_WEIGHT_CLASS"
+    }, {
+      "name" : "PROD_UNIT_OF_MEASURE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_UNIT_OF_MEASURE"
+    }, {
+      "name" : "PROD_PACK_SIZE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_PACK_SIZE"
+    }, {
+      "name" : "SUPPLIER_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.SUPPLIER_ID"
+    }, {
+      "name" : "PROD_STATUS",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_STATUS"
+    }, {
+      "name" : "PROD_LIST_PRICE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_LIST_PRICE"
+    }, {
+      "name" : "PROD_MIN_PRICE",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_MIN_PRICE"
+    }, {
+      "name" : "PROD_TOTAL",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_TOTAL"
+    }, {
+      "name" : "PROD_TOTAL_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_TOTAL_ID"
+    }, {
+      "name" : "PROD_SRC_ID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_SRC_ID"
+    }, {
+      "name" : "PROD_EFF_FROM",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_EFF_FROM"
+    }, {
+      "name" : "PROD_EFF_TO",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_EFF_TO"
+    }, {
+      "name" : "PROD_VALID",
+      "sourceLogicalColumn" : "logicalColumn:SH_BMML.PRODUCTS.PROD_VALID"
+    } ]
+  }
+}

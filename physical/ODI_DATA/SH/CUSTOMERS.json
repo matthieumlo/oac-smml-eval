@@ -1,0 +1,122 @@
+{
+  "physicalTable" : {
+    "name" : "CUSTOMERS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CUST_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "CUST_LAST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : false
+    }, {
+      "name" : "CUST_GENDER",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : false
+    }, {
+      "name" : "CUST_YEAR_OF_BIRTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_MARITAL_STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "CUST_STREET_ADDRESS",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : false
+    }, {
+      "name" : "CUST_POSTAL_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "CUST_CITY",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "CUST_CITY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_STATE_PROVINCE",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : false
+    }, {
+      "name" : "CUST_STATE_PROVINCE_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_MAIN_PHONE_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : false
+    }, {
+      "name" : "CUST_INCOME_LEVEL",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "CUST_CREDIT_LIMIT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_EMAIL",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "CUST_TOTAL",
+      "dataType" : "VARCHAR",
+      "length" : 14,
+      "nullable" : false
+    }, {
+      "name" : "CUST_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_SRC_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_EFF_FROM",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_EFF_TO",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CUST_VALID",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : false
+    } ]
+  }
+}

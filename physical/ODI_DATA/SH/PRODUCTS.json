@@ -1,0 +1,117 @@
+{
+  "physicalTable" : {
+    "name" : "PRODUCTS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROD_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "PROD_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : false
+    }, {
+      "name" : "PROD_SUBCATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "PROD_SUBCATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_SUBCATEGORY_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 2000,
+      "nullable" : false
+    }, {
+      "name" : "PROD_CATEGORY",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "PROD_CATEGORY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_CATEGORY_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 2000,
+      "nullable" : false
+    }, {
+      "name" : "PROD_WEIGHT_CLASS",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_UNIT_OF_MEASURE",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "PROD_PACK_SIZE",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "SUPPLIER_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "PROD_LIST_PRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_MIN_PRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_TOTAL",
+      "dataType" : "VARCHAR",
+      "length" : 13,
+      "nullable" : false
+    }, {
+      "name" : "PROD_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_SRC_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_EFF_FROM",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_EFF_TO",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROD_VALID",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : false
+    } ]
+  }
+}

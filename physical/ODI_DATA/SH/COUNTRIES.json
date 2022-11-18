@@ -1,0 +1,57 @@
+{
+  "physicalTable" : {
+    "name" : "COUNTRIES",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "COUNTRY_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_ISO_CODE",
+      "dataType" : "CHAR",
+      "length" : 2,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_SUBREGION",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_SUBREGION_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_REGION",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_REGION_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_TOTAL",
+      "dataType" : "VARCHAR",
+      "length" : 11,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_TOTAL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "COUNTRY_NAME_HIST",
+      "dataType" : "VARCHAR",
+      "length" : 40,
+      "nullable" : false
+    } ]
+  }
+}
